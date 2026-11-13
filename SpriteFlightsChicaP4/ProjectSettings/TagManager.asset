@@ -2,8 +2,9 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - player
   layers:
   - Default
   - TransparentFX
@@ -41,3 +42,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: outline
+    uniqueID: 1840366741
+    locked: 0
+  - name: head
+    uniqueID: 3342632649
+    locked: 0
+  - name: eyes
+    uniqueID: 4063481281
+    locked: 0
+  - name: pupils
+    uniqueID: 1692899431
+    locked: 0
+  - name: nose
+    uniqueID: 1898018145
+    locked: 0
+  m_RenderingLayers:
+  - Default
