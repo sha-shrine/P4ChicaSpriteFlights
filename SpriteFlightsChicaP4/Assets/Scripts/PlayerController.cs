@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
         if (Mouse.current.leftButton.isPressed){ 
             Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
             Debug.Log("Mouse position: " + mousePosition);
-            Vector2 direction = (mousePosition - transform.position).normalized;
+            Vector2 direction = mousePosition - transform.position;
             transform.up = direction;
         }
     }
